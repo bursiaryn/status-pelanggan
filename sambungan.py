@@ -1,6 +1,7 @@
 import pickle
 import streamlit as st
 import numpy as np
+from sklearn.preprocessing import StandardScaler
 
 # Membaca model
 customer_model = pickle.load(open('pelanggan_model.sav','rb'))
