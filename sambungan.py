@@ -1,4 +1,3 @@
-pip install scikit-learn
 import pickle
 import streamlit as st
 import numpy as np
